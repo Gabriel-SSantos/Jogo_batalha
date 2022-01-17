@@ -1,1 +1,1 @@
-# Jogo_batalha- Primeiro projeto do github
+# Jogo_batalha- Primeiro projeto no github
