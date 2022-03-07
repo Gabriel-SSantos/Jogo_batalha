@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<!--<img class="borda"src="Nova pasta/bordamaiorlat.png" alt="">-->
+<body>
+        <h1>BATTLE</h1>
+        <div id="tutorial">
+            <p class="cjogar" onclick="instruções()">COMO JOGAR</p>
+        </div>
+        <main>
+            <div class="personagens">
+                <p class="personagem" >1</p>
+                <img src="Nova pasta/fogomine (1).png" alt="fogo"  id="atributos1" class="img">
+                <p class="personagem">2</p>
+                <img src="Nova pasta/aguamine.png" alt="agua" id="atributos2" class="img"> 
+            </div>
+            <div class="personagens">
+                <p class="personagem">3</p>
+                <img src="Nova pasta/terramine.png" alt="terra" id="atributos3" class="img">
+                <p class="personagem">4</p>
+                <img src="Nova pasta/armine.png" alt="ar" id="atributos4" class="img">
+            </div>
+           
+        </main>
+        <div>
+            <p id="pers">Digite o número de seus personagem:</p>
+        </div>
+        <div class="botões">
+            <p>1</p><input type="number" name="console1" class="input">
+            <p>2</p><input type="number" name="console2" class="input">
+            <input type="button" value="" id="bota">
+        </div>
+        <div id="artigo">
+             
+                    <article>
+                    <section id="cabeçalho">
+               <div class="corações">
+                   <img src="" class="img1">
+                   <img src=" " class="img1">
+                   <img src=" "  class="img1">
+                   <img src=" " class="img1">
+                   <img src=" " class="img1">
+               </div>
+               <div class="corações">
+                   <img src=" " alt="">
+                   <img src=" " alt="">
+                   <img src=" " alt="">
+                   <img src=" " alt="">
+                   <img src=" " alt="">
+               </div>
+                    </section>
+                    <section id="pontos">
+               <div class="pontos">
+                   <img src="" alt="" id="pontos1">
+               </div>
+               <div class="pontos">
+                   <img src="" alt="" id="pontos2">
+               </div>
+                    </section>
+                    <section id="principal">
+               <div id="pers1">
+                  <img id="personagem1" src="">
+               </div>
+               <div id="ação">
+                   <img src="" alt="" id="ação1">
+               </div>
+               <div id="pers2" >
+                   <img id="personagem2" src="">
+               </div>  
+                    </section>
+                    <section id="botoes">
+               <div class="botões">
+                   <input type="button" value="A" onclick="ataque()">
+                   <input type="button" value="B" onclick="descanso()">
+                   <input type="button" value="C" onclick="ataqueforte()">
+               </div>
+               <div class="botões">
+                   <p>Aguarde o adversário</p>
+               </div> 
+                    </section>
+                    <p style="background-color: aquamarine;" id="resp">Suportes:</p>
+                    <div>
+               <div>
+                   <img src="suporte1.png" alt="" id="escudo1" class="reforço">
+                   <img src="reforço2.png" alt="" class="reforço" id="espada1">
+               </div>
+               <div>
+                   <img src="suporte1.png" alt="" id="escudo2" class="reforço">
+                   <img src="reforço2.png" alt="" class="reforço" id="espada2">
+               </div>
+                    </div>
+                </article>
+                <p id= "article"></p>
+                
+        </div>
+        <footer style="background-color: rgba(0, 0, 0, 0.466);">
+            Desenvolvido por Gabriel S.Santos 
+        </footer>
+        </body>
+        <script src="projeto.js"></script>
+        
+        <script>
+        var a = getElementById('resp')
+            function conferir(){
+            a.innerHTML = `vida: ${vida} e vida: ${vida2}`
+        }
+        
+          </script>
+<!---->
+</body>
+</html>
