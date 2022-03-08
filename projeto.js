@@ -73,8 +73,8 @@ seleção.innerHTML = '<h1>COMEÇAR</h1>'
 var person1 = document.getElementById('personagem1')
 var person2 = document.getElementById('personagem2')
 back.style.backgroundImage = 'url(back3gif.gif)'
-coração1.innerHTML = '<img src="coração2.png"><img src="https://ggabriel-ss.github.io/Jogo_batalha/Nova%20pasta/coração2.png"><img src="https://ggabriel-ss.github.io/Jogo_batalha/Nova%20pasta/coração2.png"><img src="https://ggabriel-ss.github.io/Jogo_batalha/Nova%20pasta/coração2.png"><img src="https://ggabriel-ss.github.io/Jogo_batalha/Nova%20pasta/coração2.png">'
-coração2.innerHTML = '<img src="coração2.png"><img src="https://ggabriel-ss.github.io/Jogo_batalha/Nova%20pasta/coração2.png"><img src="https://ggabriel-ss.github.io/Jogo_batalha/Nova%20pasta/coração2.png"><img src="https://ggabriel-ss.github.io/Jogo_batalha/Nova%20pasta/coração2.png"><img src="https://ggabriel-ss.github.io/Jogo_batalha/Nova%20pasta/coração2.png">'
+coração1.innerHTML = '<img src="https://ggabriel-ss.github.io/Jogo_batalha/Nova%20pasta/coração2.png"><img src="https://ggabriel-ss.github.io/Jogo_batalha/Nova%20pasta/coração2.png"><img src="https://ggabriel-ss.github.io/Jogo_batalha/Nova%20pasta/coração2.png"><img src="https://ggabriel-ss.github.io/Jogo_batalha/Nova%20pasta/coração2.png"><img src="https://ggabriel-ss.github.io/Jogo_batalha/Nova%20pasta/coração2.png">'
+coração2.innerHTML = '<img src="https://ggabriel-ss.github.io/Jogo_batalha/Nova%20pasta/coração2.png"><img src="https://ggabriel-ss.github.io/Jogo_batalha/Nova%20pasta/coração2.png"><img src="https://ggabriel-ss.github.io/Jogo_batalha/Nova%20pasta/coração2.png"><img src="https://ggabriel-ss.github.io/Jogo_batalha/Nova%20pasta/coração2.png"><img src="https://ggabriel-ss.github.io/Jogo_batalha/Nova%20pasta/coração2.png">'
 if (play1 == 1){
   vida = 400;
   dano = 75;
@@ -138,7 +138,7 @@ function vencedor() {
   if(vida < 0 || vida2 < 0){
     seleção.innerHTML = '<h1>PARABÉNS</h1>'
     var telavenc = document.getElementById('article')
-    telavenc.style.backgroundImage = url(`https://ggabriel-ss.github.io/Jogo_batalha/Nova%20pasta/vencedor.gif`)
+    telavenc.style.backgroundImage = 'url(https://ggabriel-ss.github.io/Jogo_batalha/Nova%20pasta/vencedor.gif)'
   botao.innerHTML = `<p>Fim da Partida</p>`
   botao2.innerHTML = `<p>Fim da Partida</p>`
   terminal.innerHTML = `<div id = "seleção"><div class = "pontos"><p class = "pontos1">Vida: ${vida}</p><p class = "pontos1">Energia: ${i}</p></div><div class = "pontos"><p class = "pontos1">Vida: ${vida2}</p><p class = "pontos1">Energia: ${j}</p></div></div>
@@ -171,13 +171,13 @@ function vencedor() {
 function ataque(){
       vida2 -= dano
       if(pers1 == 1){
-       ação.src = 'https://ggabriel-ss.github.io/Jogo_batalha/fogoataquea.gif'  
+       ação.src = 'https://ggabriel-ss.github.io/Jogo_batalha/Nova%20pasta/fogoataquea.gif'  
       } else if (pers1 == 2){
-        ação.src = 'https://ggabriel-ss.github.io/Jogo_batalha/aguaataquea.gif'
+        ação.src = 'https://ggabriel-ss.github.io/Jogo_batalha/Nova%20pasta/aguaataquea.gif'
       } else if (pers1 == 3){
-        ação.src = 'https://ggabriel-ss.github.io/Jogo_batalha/ataqueterraa1.gif'
+        ação.src = 'https://ggabriel-ss.github.io/Jogo_batalha/Nova%20pasta/ataqueterraa1.gif'
       } else if(pers1 == 4){
-        ação.src = 'https://ggabriel-ss.github.io/Jogo_batalha/araataquea.gif'
+        ação.src = 'https://ggabriel-ss.github.io/Jogo_batalha/Nova%20pasta/araataquea.gif'
       } 
       i++ 
       a.innerHTML = `personagem ${pers1} vida: ${vida} e personagem ${pers2} vida: ${vida2}`
