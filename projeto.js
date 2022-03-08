@@ -171,13 +171,13 @@ function vencedor() {
 function ataque(){
       vida2 -= dano
       if(pers1 == 1){
-       ação.src = 'fogoataquea.gif'  
+       ação.src = 'https://ggabriel-ss.github.io/Jogo_batalha/fogoataquea.gif'  
       } else if (pers1 == 2){
-        ação.src = 'aguaataquea.gif'
+        ação.src = 'https://ggabriel-ss.github.io/Jogo_batalha/aguaataquea.gif'
       } else if (pers1 == 3){
-        ação.src = 'ataqueterraa1.gif'
+        ação.src = 'https://ggabriel-ss.github.io/Jogo_batalha/ataqueterraa1.gif'
       } else if(pers1 == 4){
-        ação.src = 'araataquea.gif'
+        ação.src = 'https://ggabriel-ss.github.io/Jogo_batalha/araataquea.gif'
       } 
       i++ 
       a.innerHTML = `personagem ${pers1} vida: ${vida} e personagem ${pers2} vida: ${vida2}`
