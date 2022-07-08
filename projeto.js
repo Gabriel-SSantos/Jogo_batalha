@@ -72,7 +72,7 @@ pers2 = play2
 seleção.innerHTML = '<h1>COMEÇAR</h1>'
 var person1 = document.getElementById('personagem1')
 var person2 = document.getElementById('personagem2')
-back.style.backgroundImage = 'url(back3gif.gif)'
+back.style.backgroundImage = 'url(https://ggabriel-ss.github.io/Jogo_batalha/Nova%20pasta/back3gif.gif)'
 coração1.innerHTML = '<img src="https://ggabriel-ss.github.io/Jogo_batalha/Nova%20pasta/coração2.png"><img src="https://ggabriel-ss.github.io/Jogo_batalha/Nova%20pasta/coração2.png"><img src="https://ggabriel-ss.github.io/Jogo_batalha/Nova%20pasta/coração2.png"><img src="https://ggabriel-ss.github.io/Jogo_batalha/Nova%20pasta/coração2.png"><img src="https://ggabriel-ss.github.io/Jogo_batalha/Nova%20pasta/coração2.png">'
 coração2.innerHTML = '<img src="https://ggabriel-ss.github.io/Jogo_batalha/Nova%20pasta/coração2.png"><img src="https://ggabriel-ss.github.io/Jogo_batalha/Nova%20pasta/coração2.png"><img src="https://ggabriel-ss.github.io/Jogo_batalha/Nova%20pasta/coração2.png"><img src="https://ggabriel-ss.github.io/Jogo_batalha/Nova%20pasta/coração2.png"><img src="https://ggabriel-ss.github.io/Jogo_batalha/Nova%20pasta/coração2.png">'
 if (play1 == 1){
